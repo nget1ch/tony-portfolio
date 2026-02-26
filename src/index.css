@@ -32,8 +32,8 @@ body.theme-light {
   --color-bg-elevated: #ffffff;
   --color-bg-soft: #e5e7f1;
   --color-surface-border: rgba(148, 163, 184, 0.4);
-  --color-text: #0f172a;
-  --color-text-muted: #6b7280;
+  --color-text: #020617;
+  --color-text-muted: #4b5563;
   --color-heading: #020617;
   --shadow-soft: 0 18px 38px rgba(15, 23, 42, 0.08);
 }
@@ -1259,6 +1259,18 @@ body.theme-light .home-profile-panel {
   gap: 0.6rem;
 }
 
+.home-contact-group {
+  margin-top: var(--space-md);
+}
+
+.home-contact-heading {
+  margin: 0 0 var(--space-sm);
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
 .contact-pill {
   display: inline-flex;
   align-items: center;
@@ -1303,8 +1315,67 @@ body.theme-light .contact-pill {
   grid-column: span 2;
 }
 
+.contact-pill-button {
+  width: 100%;
+  justify-content: center;
+}
+
 .home-intro {
   max-width: 640px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(8px);
+}
+
+body.theme-light .modal-backdrop {
+  background: rgba(15, 23, 42, 0.32);
+}
+
+.modal-card {
+  width: 100%;
+  max-width: 640px;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  box-shadow: var(--shadow-soft);
+}
+
+body.theme-light .modal-card {
+  background: #ffffff;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: var(--space-md);
+}
+
+.modal-close {
+  padding-inline: 0.6rem;
+}
+
+.modal-actions {
+  margin-top: var(--space-sm);
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .modal-card {
+    padding: var(--space-md);
+  }
 }
 
 

@@ -12,11 +12,10 @@ export function SkillsTools() {
               <header className="card-header">
                 <div>
                   <h2 className="card-title">Frontend</h2>
-                  <p className="card-subtitle">Building performant, accessible interfaces with scalable component architecture.</p>
+                  <p className="card-subtitle">Engineered interfaces built for performance, clarity, and long-term scalability. Component-driven architecture with a focus on maintainability and user experience.</p>
                 </div>
               </header>
               <div className="skills-list">
-                <span className="skills-pill">JavaScript</span>
                 <span className="skills-pill">TypeScript</span>
                 <span className="skills-pill">React</span>
                 <span className="skills-pill">Next.js</span>
@@ -27,7 +26,7 @@ export function SkillsTools() {
               <header className="card-header">
                 <div>
                   <h2 className="card-title">Backend</h2>
-                  <p className="card-subtitle">Designing secure, production-ready APIs built for scale and reliability.</p>
+                  <p className="card-subtitle">Production-grade APIs designed for security, reliability, and scale. Structured architecture, deliberate authentication flows, and performance-conscious system design.</p>
                 </div>
               </header>
               <div className="skills-list">
@@ -42,12 +41,11 @@ export function SkillsTools() {
               <header className="card-header">
                 <div>
                   <h2 className="card-title">Databases</h2>
-                  <p className="card-subtitle">Data models that support integrity, reporting, and performance.</p>
+                  <p className="card-subtitle">Relational data models optimized for integrity, efficiency, and predictable growth. Schema-first thinking with disciplined query performance.</p>
                 </div>
               </header>
               <div className="skills-list">
                 <span className="skills-pill">PostgreSQL</span>
-                <span className="skills-pill">MongoDB</span>
                 <span className="skills-pill">Schema design</span>
                 <span className="skills-pill">Query optimization</span>
               </div>
@@ -57,7 +55,7 @@ export function SkillsTools() {
               <header className="card-header">
                 <div>
                   <h2 className="card-title">Tools &amp; Practices</h2>
-                  <p className="card-subtitle">Daily tools that keep delivery predictable and maintainable.</p>
+                  <p className="card-subtitle">Workflow discipline and engineering standards that keep systems stable and delivery predictable.</p>
                 </div>
               </header>
               <div className="skills-list">

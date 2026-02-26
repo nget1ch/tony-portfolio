@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div>
-          <span>© {new Date().getFullYear()} Tony Kimutai Ngetich.</span>{' '}
+          <span>© {new Date().getFullYear()} Tony Ngetich.</span>{' '}
           <span className="muted">Building scalable, secure web applications.</span>
         </div>
         <div className="footer-links">
@@ -19,7 +19,7 @@ export function Footer() {
         </div>
         <div className="footer-socials">
           <a
-            href="https://github.com/TonyKim7493"
+            href="https://github.com/nget1ch"
             className="footer-link footer-social-pill"
             aria-label="GitHub"
           >
@@ -35,7 +35,7 @@ export function Footer() {
             <span>LinkedIn</span>
           </a>
           <a
-            href="https://x.com/your-handle"
+            href="https://x.com/nget1ch"
             className="footer-link footer-social-pill"
             aria-label="X (Twitter)"
           >
